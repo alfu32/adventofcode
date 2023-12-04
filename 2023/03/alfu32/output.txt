@@ -1,0 +1,3273 @@
+[Game{
+    name: 'Game 1'
+    code: '1'
+    number: 1
+    rounds: [Round{
+        red: 1
+        green: 1
+        blue: 5
+    }, Round{
+        red: 3
+        green: 0
+        blue: 16
+    }, Round{
+        red: 5
+        green: 0
+        blue: 6
+    }, Round{
+        red: 4
+        green: 1
+        blue: 7
+    }]
+}, Game{
+    name: 'Game 2'
+    code: '2'
+    number: 2
+    rounds: [Round{
+        red: 0
+        green: 0
+        blue: 4
+    }, Round{
+        red: 4
+        green: 1
+        blue: 3
+    }, Round{
+        red: 4
+        green: 2
+        blue: 9
+    }, Round{
+        red: 4
+        green: 7
+        blue: 5
+    }]
+}, Game{
+    name: 'Game 3'
+    code: '3'
+    number: 3
+    rounds: [Round{
+        red: 0
+        green: 0
+        blue: 10
+    }, Round{
+        red: 0
+        green: 1
+        blue: 7
+    }, Round{
+        red: 9
+        green: 1
+        blue: 19
+    }]
+}, Game{
+    name: 'Game 4'
+    code: '4'
+    number: 4
+    rounds: [Round{
+        red: 0
+        green: 2
+        blue: 0
+    }, Round{
+        red: 14
+        green: 4
+        blue: 14
+    }, Round{
+        red: 12
+        green: 11
+        blue: 13
+    }, Round{
+        red: 9
+        green: 5
+        blue: 4
+    }, Round{
+        red: 9
+        green: 7
+        blue: 12
+    }, Round{
+        red: 8
+        green: 2
+        blue: 3
+    }]
+}, Game{
+    name: 'Game 5'
+    code: '5'
+    number: 5
+    rounds: [Round{
+        red: 4
+        green: 0
+        blue: 3
+    }, Round{
+        red: 12
+        green: 2
+        blue: 15
+    }, Round{
+        red: 1
+        green: 1
+        blue: 10
+    }]
+}, Game{
+    name: 'Game 6'
+    code: '6'
+    number: 6
+    rounds: [Round{
+        red: 7
+        green: 0
+        blue: 1
+    }, Round{
+        red: 5
+        green: 3
+        blue: 1
+    }, Round{
+        red: 7
+        green: 1
+        blue: 0
+    }, Round{
+        red: 6
+        green: 4
+        blue: 1
+    }, Round{
+        red: 8
+        green: 1
+        blue: 1
+    }, Round{
+        red: 4
+        green: 2
+        blue: 1
+    }]
+}, Game{
+    name: 'Game 7'
+    code: '7'
+    number: 7
+    rounds: [Round{
+        red: 2
+        green: 11
+        blue: 10
+    }, Round{
+        red: 2
+        green: 1
+        blue: 12
+    }, Round{
+        red: 0
+        green: 9
+        blue: 14
+    }, Round{
+        red: 1
+        green: 15
+        blue: 19
+    }]
+}, Game{
+    name: 'Game 8'
+    code: '8'
+    number: 8
+    rounds: [Round{
+        red: 2
+        green: 4
+        blue: 14
+    }, Round{
+        red: 1
+        green: 9
+        blue: 15
+    }, Round{
+        red: 9
+        green: 2
+        blue: 8
+    }, Round{
+        red: 7
+        green: 11
+        blue: 8
+    }, Round{
+        red: 9
+        green: 7
+        blue: 6
+    }]
+}, Game{
+    name: 'Game 9'
+    code: '9'
+    number: 9
+    rounds: [Round{
+        red: 2
+        green: 1
+        blue: 4
+    }, Round{
+        red: 3
+        green: 0
+        blue: 1
+    }, Round{
+        red: 1
+        green: 3
+        blue: 3
+    }]
+}, Game{
+    name: 'Game 10'
+    code: '10'
+    number: 10
+    rounds: [Round{
+        red: 4
+        green: 3
+        blue: 6
+    }, Round{
+        red: 6
+        green: 2
+        blue: 15
+    }, Round{
+        red: 0
+        green: 3
+        blue: 2
+    }, Round{
+        red: 2
+        green: 1
+        blue: 0
+    }, Round{
+        red: 7
+        green: 4
+        blue: 11
+    }, Round{
+        red: 2
+        green: 4
+        blue: 2
+    }]
+}, Game{
+    name: 'Game 11'
+    code: '11'
+    number: 11
+    rounds: [Round{
+        red: 10
+        green: 1
+        blue: 7
+    }, Round{
+        red: 5
+        green: 2
+        blue: 7
+    }, Round{
+        red: 0
+        green: 2
+        blue: 4
+    }, Round{
+        red: 10
+        green: 1
+        blue: 10
+    }, Round{
+        red: 4
+        green: 0
+        blue: 8
+    }]
+}, Game{
+    name: 'Game 12'
+    code: '12'
+    number: 12
+    rounds: [Round{
+        red: 7
+        green: 6
+        blue: 2
+    }, Round{
+        red: 3
+        green: 3
+        blue: 2
+    }, Round{
+        red: 6
+        green: 9
+        blue: 1
+    }, Round{
+        red: 13
+        green: 9
+        blue: 5
+    }, Round{
+        red: 8
+        green: 6
+        blue: 4
+    }]
+}, Game{
+    name: 'Game 13'
+    code: '13'
+    number: 13
+    rounds: [Round{
+        red: 4
+        green: 10
+        blue: 6
+    }, Round{
+        red: 19
+        green: 6
+        blue: 7
+    }, Round{
+        red: 5
+        green: 8
+        blue: 6
+    }]
+}, Game{
+    name: 'Game 14'
+    code: '14'
+    number: 14
+    rounds: [Round{
+        red: 0
+        green: 2
+        blue: 4
+    }, Round{
+        red: 0
+        green: 0
+        blue: 19
+    }, Round{
+        red: 6
+        green: 0
+        blue: 17
+    }, Round{
+        red: 7
+        green: 0
+        blue: 10
+    }, Round{
+        red: 7
+        green: 1
+        blue: 2
+    }]
+}, Game{
+    name: 'Game 15'
+    code: '15'
+    number: 15
+    rounds: [Round{
+        red: 15
+        green: 4
+        blue: 12
+    }, Round{
+        red: 13
+        green: 18
+        blue: 10
+    }, Round{
+        red: 10
+        green: 6
+        blue: 20
+    }, Round{
+        red: 20
+        green: 13
+        blue: 12
+    }, Round{
+        red: 10
+        green: 17
+        blue: 12
+    }, Round{
+        red: 1
+        green: 7
+        blue: 3
+    }]
+}, Game{
+    name: 'Game 16'
+    code: '16'
+    number: 16
+    rounds: [Round{
+        red: 6
+        green: 5
+        blue: 1
+    }, Round{
+        red: 3
+        green: 3
+        blue: 0
+    }, Round{
+        red: 1
+        green: 5
+        blue: 0
+    }, Round{
+        red: 2
+        green: 6
+        blue: 1
+    }, Round{
+        red: 1
+        green: 6
+        blue: 1
+    }, Round{
+        red: 0
+        green: 6
+        blue: 1
+    }]
+}, Game{
+    name: 'Game 17'
+    code: '17'
+    number: 17
+    rounds: [Round{
+        red: 4
+        green: 3
+        blue: 3
+    }, Round{
+        red: 0
+        green: 8
+        blue: 8
+    }, Round{
+        red: 5
+        green: 3
+        blue: 9
+    }, Round{
+        red: 13
+        green: 9
+        blue: 12
+    }, Round{
+        red: 5
+        green: 1
+        blue: 1
+    }, Round{
+        red: 6
+        green: 7
+        blue: 0
+    }]
+}, Game{
+    name: 'Game 18'
+    code: '18'
+    number: 18
+    rounds: [Round{
+        red: 6
+        green: 2
+        blue: 11
+    }, Round{
+        red: 11
+        green: 2
+        blue: 2
+    }, Round{
+        red: 7
+        green: 9
+        blue: 4
+    }, Round{
+        red: 6
+        green: 1
+        blue: 18
+    }]
+}, Game{
+    name: 'Game 19'
+    code: '19'
+    number: 19
+    rounds: [Round{
+        red: 4
+        green: 7
+        blue: 17
+    }, Round{
+        red: 6
+        green: 5
+        blue: 4
+    }, Round{
+        red: 4
+        green: 1
+        blue: 4
+    }]
+}, Game{
+    name: 'Game 20'
+    code: '20'
+    number: 20
+    rounds: [Round{
+        red: 9
+        green: 5
+        blue: 2
+    }, Round{
+        red: 8
+        green: 4
+        blue: 10
+    }, Round{
+        red: 9
+        green: 1
+        blue: 7
+    }, Round{
+        red: 9
+        green: 1
+        blue: 10
+    }, Round{
+        red: 8
+        green: 1
+        blue: 0
+    }, Round{
+        red: 8
+        green: 1
+        blue: 8
+    }]
+}, Game{
+    name: 'Game 21'
+    code: '21'
+    number: 21
+    rounds: [Round{
+        red: 14
+        green: 0
+        blue: 1
+    }, Round{
+        red: 2
+        green: 1
+        blue: 0
+    }, Round{
+        red: 9
+        green: 1
+        blue: 1
+    }]
+}, Game{
+    name: 'Game 22'
+    code: '22'
+    number: 22
+    rounds: [Round{
+        red: 9
+        green: 7
+        blue: 4
+    }, Round{
+        red: 9
+        green: 7
+        blue: 9
+    }, Round{
+        red: 14
+        green: 8
+        blue: 0
+    }, Round{
+        red: 0
+        green: 0
+        blue: 5
+    }, Round{
+        red: 10
+        green: 1
+        blue: 1
+    }, Round{
+        red: 0
+        green: 8
+        blue: 0
+    }]
+}, Game{
+    name: 'Game 23'
+    code: '23'
+    number: 23
+    rounds: [Round{
+        red: 2
+        green: 12
+        blue: 5
+    }, Round{
+        red: 3
+        green: 3
+        blue: 5
+    }, Round{
+        red: 1
+        green: 9
+        blue: 1
+    }, Round{
+        red: 0
+        green: 8
+        blue: 6
+    }, Round{
+        red: 0
+        green: 13
+        blue: 0
+    }]
+}, Game{
+    name: 'Game 24'
+    code: '24'
+    number: 24
+    rounds: [Round{
+        red: 8
+        green: 7
+        blue: 1
+    }, Round{
+        red: 1
+        green: 6
+        blue: 7
+    }, Round{
+        red: 3
+        green: 1
+        blue: 0
+    }]
+}, Game{
+    name: 'Game 25'
+    code: '25'
+    number: 25
+    rounds: [Round{
+        red: 2
+        green: 4
+        blue: 0
+    }, Round{
+        red: 1
+        green: 2
+        blue: 8
+    }, Round{
+        red: 0
+        green: 1
+        blue: 0
+    }, Round{
+        red: 0
+        green: 0
+        blue: 8
+    }]
+}, Game{
+    name: 'Game 26'
+    code: '26'
+    number: 26
+    rounds: [Round{
+        red: 17
+        green: 1
+        blue: 4
+    }, Round{
+        red: 15
+        green: 3
+        blue: 3
+    }, Round{
+        red: 2
+        green: 0
+        blue: 2
+    }, Round{
+        red: 18
+        green: 2
+        blue: 11
+    }, Round{
+        red: 6
+        green: 0
+        blue: 7
+    }, Round{
+        red: 4
+        green: 1
+        blue: 10
+    }]
+}, Game{
+    name: 'Game 27'
+    code: '27'
+    number: 27
+    rounds: [Round{
+        red: 2
+        green: 1
+        blue: 5
+    }, Round{
+        red: 2
+        green: 14
+        blue: 6
+    }, Round{
+        red: 1
+        green: 14
+        blue: 4
+    }]
+}, Game{
+    name: 'Game 28'
+    code: '28'
+    number: 28
+    rounds: [Round{
+        red: 3
+        green: 5
+        blue: 2
+    }, Round{
+        red: 2
+        green: 3
+        blue: 4
+    }, Round{
+        red: 1
+        green: 9
+        blue: 3
+    }, Round{
+        red: 4
+        green: 13
+        blue: 4
+    }]
+}, Game{
+    name: 'Game 29'
+    code: '29'
+    number: 29
+    rounds: [Round{
+        red: 18
+        green: 11
+        blue: 0
+    }, Round{
+        red: 18
+        green: 9
+        blue: 4
+    }, Round{
+        red: 16
+        green: 2
+        blue: 4
+    }, Round{
+        red: 2
+        green: 12
+        blue: 3
+    }, Round{
+        red: 18
+        green: 1
+        blue: 0
+    }, Round{
+        red: 1
+        green: 15
+        blue: 2
+    }]
+}, Game{
+    name: 'Game 30'
+    code: '30'
+    number: 30
+    rounds: [Round{
+        red: 10
+        green: 1
+        blue: 3
+    }, Round{
+        red: 6
+        green: 3
+        blue: 1
+    }, Round{
+        red: 10
+        green: 2
+        blue: 2
+    }, Round{
+        red: 0
+        green: 6
+        blue: 0
+    }, Round{
+        red: 15
+        green: 0
+        blue: 3
+    }]
+}, Game{
+    name: 'Game 31'
+    code: '31'
+    number: 31
+    rounds: [Round{
+        red: 2
+        green: 7
+        blue: 1
+    }, Round{
+        red: 12
+        green: 8
+        blue: 4
+    }, Round{
+        red: 5
+        green: 2
+        blue: 2
+    }, Round{
+        red: 12
+        green: 3
+        blue: 2
+    }, Round{
+        red: 7
+        green: 5
+        blue: 4
+    }, Round{
+        red: 7
+        green: 0
+        blue: 1
+    }]
+}, Game{
+    name: 'Game 32'
+    code: '32'
+    number: 32
+    rounds: [Round{
+        red: 5
+        green: 11
+        blue: 4
+    }, Round{
+        red: 20
+        green: 8
+        blue: 1
+    }, Round{
+        red: 10
+        green: 7
+        blue: 1
+    }, Round{
+        red: 7
+        green: 2
+        blue: 1
+    }, Round{
+        red: 1
+        green: 19
+        blue: 3
+    }]
+}, Game{
+    name: 'Game 33'
+    code: '33'
+    number: 33
+    rounds: [Round{
+        red: 9
+        green: 0
+        blue: 0
+    }, Round{
+        red: 9
+        green: 6
+        blue: 7
+    }, Round{
+        red: 5
+        green: 2
+        blue: 7
+    }]
+}, Game{
+    name: 'Game 34'
+    code: '34'
+    number: 34
+    rounds: [Round{
+        red: 5
+        green: 5
+        blue: 3
+    }, Round{
+        red: 16
+        green: 8
+        blue: 6
+    }, Round{
+        red: 8
+        green: 8
+        blue: 12
+    }, Round{
+        red: 10
+        green: 3
+        blue: 1
+    }, Round{
+        red: 18
+        green: 1
+        blue: 13
+    }, Round{
+        red: 8
+        green: 5
+        blue: 4
+    }]
+}, Game{
+    name: 'Game 35'
+    code: '35'
+    number: 35
+    rounds: [Round{
+        red: 4
+        green: 15
+        blue: 8
+    }, Round{
+        red: 7
+        green: 1
+        blue: 14
+    }, Round{
+        red: 2
+        green: 12
+        blue: 16
+    }]
+}, Game{
+    name: 'Game 36'
+    code: '36'
+    number: 36
+    rounds: [Round{
+        red: 2
+        green: 3
+        blue: 3
+    }, Round{
+        red: 7
+        green: 0
+        blue: 8
+    }, Round{
+        red: 9
+        green: 0
+        blue: 11
+    }, Round{
+        red: 4
+        green: 1
+        blue: 13
+    }]
+}, Game{
+    name: 'Game 37'
+    code: '37'
+    number: 37
+    rounds: [Round{
+        red: 4
+        green: 8
+        blue: 11
+    }, Round{
+        red: 14
+        green: 6
+        blue: 4
+    }, Round{
+        red: 13
+        green: 7
+        blue: 5
+    }, Round{
+        red: 6
+        green: 2
+        blue: 5
+    }, Round{
+        red: 4
+        green: 1
+        blue: 3
+    }, Round{
+        red: 6
+        green: 4
+        blue: 6
+    }]
+}, Game{
+    name: 'Game 38'
+    code: '38'
+    number: 38
+    rounds: [Round{
+        red: 1
+        green: 10
+        blue: 5
+    }, Round{
+        red: 3
+        green: 3
+        blue: 6
+    }, Round{
+        red: 3
+        green: 9
+        blue: 9
+    }, Round{
+        red: 1
+        green: 6
+        blue: 9
+    }]
+}, Game{
+    name: 'Game 39'
+    code: '39'
+    number: 39
+    rounds: [Round{
+        red: 16
+        green: 0
+        blue: 3
+    }, Round{
+        red: 10
+        green: 4
+        blue: 2
+    }, Round{
+        red: 13
+        green: 1
+        blue: 2
+    }, Round{
+        red: 11
+        green: 2
+        blue: 2
+    }, Round{
+        red: 13
+        green: 3
+        blue: 0
+    }]
+}, Game{
+    name: 'Game 40'
+    code: '40'
+    number: 40
+    rounds: [Round{
+        red: 3
+        green: 2
+        blue: 2
+    }, Round{
+        red: 6
+        green: 2
+        blue: 2
+    }, Round{
+        red: 9
+        green: 1
+        blue: 0
+    }]
+}, Game{
+    name: 'Game 41'
+    code: '41'
+    number: 41
+    rounds: [Round{
+        red: 12
+        green: 0
+        blue: 1
+    }, Round{
+        red: 1
+        green: 5
+        blue: 8
+    }, Round{
+        red: 13
+        green: 1
+        blue: 7
+    }, Round{
+        red: 8
+        green: 7
+        blue: 7
+    }, Round{
+        red: 17
+        green: 4
+        blue: 9
+    }, Round{
+        red: 0
+        green: 2
+        blue: 8
+    }]
+}, Game{
+    name: 'Game 42'
+    code: '42'
+    number: 42
+    rounds: [Round{
+        red: 6
+        green: 2
+        blue: 1
+    }, Round{
+        red: 3
+        green: 2
+        blue: 0
+    }, Round{
+        red: 9
+        green: 1
+        blue: 0
+    }, Round{
+        red: 2
+        green: 2
+        blue: 0
+    }]
+}, Game{
+    name: 'Game 43'
+    code: '43'
+    number: 43
+    rounds: [Round{
+        red: 9
+        green: 0
+        blue: 10
+    }, Round{
+        red: 0
+        green: 4
+        blue: 14
+    }, Round{
+        red: 5
+        green: 3
+        blue: 9
+    }, Round{
+        red: 1
+        green: 8
+        blue: 5
+    }]
+}, Game{
+    name: 'Game 44'
+    code: '44'
+    number: 44
+    rounds: [Round{
+        red: 1
+        green: 10
+        blue: 3
+    }, Round{
+        red: 13
+        green: 3
+        blue: 1
+    }, Round{
+        red: 16
+        green: 5
+        blue: 1
+    }]
+}, Game{
+    name: 'Game 45'
+    code: '45'
+    number: 45
+    rounds: [Round{
+        red: 1
+        green: 1
+        blue: 3
+    }, Round{
+        red: 1
+        green: 2
+        blue: 5
+    }, Round{
+        red: 1
+        green: 1
+        blue: 2
+    }, Round{
+        red: 0
+        green: 0
+        blue: 1
+    }, Round{
+        red: 0
+        green: 1
+        blue: 5
+    }, Round{
+        red: 0
+        green: 0
+        blue: 1
+    }]
+}, Game{
+    name: 'Game 46'
+    code: '46'
+    number: 46
+    rounds: [Round{
+        red: 4
+        green: 8
+        blue: 8
+    }, Round{
+        red: 4
+        green: 10
+        blue: 7
+    }, Round{
+        red: 2
+        green: 3
+        blue: 14
+    }]
+}, Game{
+    name: 'Game 47'
+    code: '47'
+    number: 47
+    rounds: [Round{
+        red: 3
+        green: 3
+        blue: 0
+    }, Round{
+        red: 6
+        green: 5
+        blue: 2
+    }, Round{
+        red: 5
+        green: 15
+        blue: 3
+    }, Round{
+        red: 2
+        green: 2
+        blue: 2
+    }]
+}, Game{
+    name: 'Game 48'
+    code: '48'
+    number: 48
+    rounds: [Round{
+        red: 3
+        green: 12
+        blue: 11
+    }, Round{
+        red: 3
+        green: 3
+        blue: 8
+    }, Round{
+        red: 2
+        green: 1
+        blue: 6
+    }]
+}, Game{
+    name: 'Game 49'
+    code: '49'
+    number: 49
+    rounds: [Round{
+        red: 1
+        green: 17
+        blue: 3
+    }, Round{
+        red: 4
+        green: 17
+        blue: 16
+    }, Round{
+        red: 3
+        green: 1
+        blue: 5
+    }, Round{
+        red: 1
+        green: 12
+        blue: 14
+    }]
+}, Game{
+    name: 'Game 50'
+    code: '50'
+    number: 50
+    rounds: [Round{
+        red: 5
+        green: 6
+        blue: 2
+    }, Round{
+        red: 5
+        green: 11
+        blue: 8
+    }, Round{
+        red: 2
+        green: 2
+        blue: 6
+    }]
+}, Game{
+    name: 'Game 51'
+    code: '51'
+    number: 51
+    rounds: [Round{
+        red: 2
+        green: 1
+        blue: 0
+    }, Round{
+        red: 0
+        green: 4
+        blue: 0
+    }, Round{
+        red: 0
+        green: 10
+        blue: 1
+    }]
+}, Game{
+    name: 'Game 52'
+    code: '52'
+    number: 52
+    rounds: [Round{
+        red: 9
+        green: 4
+        blue: 8
+    }, Round{
+        red: 2
+        green: 2
+        blue: 8
+    }, Round{
+        red: 1
+        green: 2
+        blue: 1
+    }, Round{
+        red: 8
+        green: 8
+        blue: 2
+    }, Round{
+        red: 4
+        green: 1
+        blue: 9
+    }, Round{
+        red: 8
+        green: 4
+        blue: 11
+    }]
+}, Game{
+    name: 'Game 53'
+    code: '53'
+    number: 53
+    rounds: [Round{
+        red: 2
+        green: 1
+        blue: 0
+    }, Round{
+        red: 9
+        green: 1
+        blue: 3
+    }, Round{
+        red: 11
+        green: 0
+        blue: 5
+    }, Round{
+        red: 6
+        green: 1
+        blue: 4
+    }, Round{
+        red: 10
+        green: 0
+        blue: 5
+    }, Round{
+        red: 5
+        green: 1
+        blue: 5
+    }]
+}, Game{
+    name: 'Game 54'
+    code: '54'
+    number: 54
+    rounds: [Round{
+        red: 0
+        green: 8
+        blue: 1
+    }, Round{
+        red: 1
+        green: 9
+        blue: 11
+    }, Round{
+        red: 0
+        green: 16
+        blue: 8
+    }, Round{
+        red: 0
+        green: 5
+        blue: 0
+    }]
+}, Game{
+    name: 'Game 55'
+    code: '55'
+    number: 55
+    rounds: [Round{
+        red: 2
+        green: 1
+        blue: 7
+    }, Round{
+        red: 5
+        green: 16
+        blue: 19
+    }, Round{
+        red: 7
+        green: 9
+        blue: 3
+    }, Round{
+        red: 4
+        green: 2
+        blue: 8
+    }, Round{
+        red: 5
+        green: 8
+        blue: 15
+    }]
+}, Game{
+    name: 'Game 56'
+    code: '56'
+    number: 56
+    rounds: [Round{
+        red: 1
+        green: 4
+        blue: 9
+    }, Round{
+        red: 0
+        green: 12
+        blue: 12
+    }, Round{
+        red: 1
+        green: 1
+        blue: 5
+    }]
+}, Game{
+    name: 'Game 57'
+    code: '57'
+    number: 57
+    rounds: [Round{
+        red: 0
+        green: 1
+        blue: 10
+    }, Round{
+        red: 1
+        green: 0
+        blue: 9
+    }, Round{
+        red: 1
+        green: 3
+        blue: 10
+    }]
+}, Game{
+    name: 'Game 58'
+    code: '58'
+    number: 58
+    rounds: [Round{
+        red: 6
+        green: 3
+        blue: 15
+    }, Round{
+        red: 5
+        green: 0
+        blue: 13
+    }, Round{
+        red: 2
+        green: 0
+        blue: 10
+    }, Round{
+        red: 5
+        green: 1
+        blue: 14
+    }]
+}, Game{
+    name: 'Game 59'
+    code: '59'
+    number: 59
+    rounds: [Round{
+        red: 7
+        green: 9
+        blue: 1
+    }, Round{
+        red: 12
+        green: 4
+        blue: 2
+    }, Round{
+        red: 20
+        green: 6
+        blue: 1
+    }, Round{
+        red: 9
+        green: 2
+        blue: 4
+    }, Round{
+        red: 8
+        green: 2
+        blue: 4
+    }]
+}, Game{
+    name: 'Game 60'
+    code: '60'
+    number: 60
+    rounds: [Round{
+        red: 11
+        green: 1
+        blue: 8
+    }, Round{
+        red: 0
+        green: 18
+        blue: 11
+    }, Round{
+        red: 16
+        green: 7
+        blue: 10
+    }, Round{
+        red: 8
+        green: 0
+        blue: 6
+    }, Round{
+        red: 7
+        green: 15
+        blue: 4
+    }]
+}, Game{
+    name: 'Game 61'
+    code: '61'
+    number: 61
+    rounds: [Round{
+        red: 8
+        green: 1
+        blue: 1
+    }, Round{
+        red: 3
+        green: 0
+        blue: 7
+    }, Round{
+        red: 10
+        green: 0
+        blue: 4
+    }, Round{
+        red: 5
+        green: 1
+        blue: 8
+    }, Round{
+        red: 10
+        green: 0
+        blue: 7
+    }]
+}, Game{
+    name: 'Game 62'
+    code: '62'
+    number: 62
+    rounds: [Round{
+        red: 1
+        green: 1
+        blue: 12
+    }, Round{
+        red: 1
+        green: 2
+        blue: 7
+    }, Round{
+        red: 0
+        green: 3
+        blue: 18
+    }, Round{
+        red: 0
+        green: 4
+        blue: 11
+    }]
+}, Game{
+    name: 'Game 63'
+    code: '63'
+    number: 63
+    rounds: [Round{
+        red: 4
+        green: 4
+        blue: 8
+    }, Round{
+        red: 7
+        green: 5
+        blue: 5
+    }, Round{
+        red: 4
+        green: 2
+        blue: 20
+    }, Round{
+        red: 3
+        green: 1
+        blue: 4
+    }]
+}, Game{
+    name: 'Game 64'
+    code: '64'
+    number: 64
+    rounds: [Round{
+        red: 2
+        green: 2
+        blue: 0
+    }, Round{
+        red: 0
+        green: 3
+        blue: 2
+    }, Round{
+        red: 2
+        green: 12
+        blue: 4
+    }, Round{
+        red: 5
+        green: 9
+        blue: 8
+    }, Round{
+        red: 0
+        green: 6
+        blue: 7
+    }, Round{
+        red: 5
+        green: 3
+        blue: 0
+    }]
+}, Game{
+    name: 'Game 65'
+    code: '65'
+    number: 65
+    rounds: [Round{
+        red: 8
+        green: 2
+        blue: 13
+    }, Round{
+        red: 0
+        green: 0
+        blue: 11
+    }, Round{
+        red: 0
+        green: 2
+        blue: 7
+    }, Round{
+        red: 9
+        green: 1
+        blue: 12
+    }]
+}, Game{
+    name: 'Game 66'
+    code: '66'
+    number: 66
+    rounds: [Round{
+        red: 3
+        green: 19
+        blue: 1
+    }, Round{
+        red: 3
+        green: 15
+        blue: 17
+    }, Round{
+        red: 0
+        green: 9
+        blue: 9
+    }]
+}, Game{
+    name: 'Game 67'
+    code: '67'
+    number: 67
+    rounds: [Round{
+        red: 1
+        green: 2
+        blue: 7
+    }, Round{
+        red: 1
+        green: 3
+        blue: 7
+    }, Round{
+        red: 1
+        green: 6
+        blue: 0
+    }, Round{
+        red: 2
+        green: 10
+        blue: 7
+    }, Round{
+        red: 2
+        green: 5
+        blue: 4
+    }]
+}, Game{
+    name: 'Game 68'
+    code: '68'
+    number: 68
+    rounds: [Round{
+        red: 14
+        green: 10
+        blue: 8
+    }, Round{
+        red: 11
+        green: 6
+        blue: 1
+    }, Round{
+        red: 7
+        green: 7
+        blue: 0
+    }, Round{
+        red: 3
+        green: 10
+        blue: 12
+    }, Round{
+        red: 6
+        green: 10
+        blue: 12
+    }, Round{
+        red: 14
+        green: 8
+        blue: 3
+    }]
+}, Game{
+    name: 'Game 69'
+    code: '69'
+    number: 69
+    rounds: [Round{
+        red: 8
+        green: 4
+        blue: 0
+    }, Round{
+        red: 2
+        green: 15
+        blue: 0
+    }, Round{
+        red: 5
+        green: 12
+        blue: 1
+    }, Round{
+        red: 13
+        green: 6
+        blue: 0
+    }, Round{
+        red: 13
+        green: 10
+        blue: 1
+    }]
+}, Game{
+    name: 'Game 70'
+    code: '70'
+    number: 70
+    rounds: [Round{
+        red: 3
+        green: 3
+        blue: 10
+    }, Round{
+        red: 8
+        green: 11
+        blue: 11
+    }, Round{
+        red: 5
+        green: 13
+        blue: 0
+    }]
+}, Game{
+    name: 'Game 71'
+    code: '71'
+    number: 71
+    rounds: [Round{
+        red: 3
+        green: 18
+        blue: 1
+    }, Round{
+        red: 2
+        green: 14
+        blue: 3
+    }, Round{
+        red: 4
+        green: 20
+        blue: 6
+    }]
+}, Game{
+    name: 'Game 72'
+    code: '72'
+    number: 72
+    rounds: [Round{
+        red: 1
+        green: 0
+        blue: 2
+    }, Round{
+        red: 1
+        green: 3
+        blue: 2
+    }, Round{
+        red: 2
+        green: 4
+        blue: 4
+    }]
+}, Game{
+    name: 'Game 73'
+    code: '73'
+    number: 73
+    rounds: [Round{
+        red: 11
+        green: 11
+        blue: 0
+    }, Round{
+        red: 0
+        green: 5
+        blue: 1
+    }, Round{
+        red: 8
+        green: 7
+        blue: 4
+    }, Round{
+        red: 7
+        green: 12
+        blue: 5
+    }]
+}, Game{
+    name: 'Game 74'
+    code: '74'
+    number: 74
+    rounds: [Round{
+        red: 12
+        green: 12
+        blue: 5
+    }, Round{
+        red: 10
+        green: 15
+        blue: 7
+    }, Round{
+        red: 19
+        green: 6
+        blue: 19
+    }, Round{
+        red: 3
+        green: 16
+        blue: 7
+    }, Round{
+        red: 11
+        green: 14
+        blue: 16
+    }]
+}, Game{
+    name: 'Game 75'
+    code: '75'
+    number: 75
+    rounds: [Round{
+        red: 5
+        green: 17
+        blue: 8
+    }, Round{
+        red: 10
+        green: 19
+        blue: 8
+    }, Round{
+        red: 6
+        green: 18
+        blue: 9
+    }, Round{
+        red: 13
+        green: 12
+        blue: 3
+    }]
+}, Game{
+    name: 'Game 76'
+    code: '76'
+    number: 76
+    rounds: [Round{
+        red: 2
+        green: 5
+        blue: 8
+    }, Round{
+        red: 14
+        green: 2
+        blue: 3
+    }, Round{
+        red: 14
+        green: 0
+        blue: 1
+    }, Round{
+        red: 15
+        green: 3
+        blue: 8
+    }, Round{
+        red: 11
+        green: 1
+        blue: 0
+    }, Round{
+        red: 11
+        green: 3
+        blue: 9
+    }]
+}, Game{
+    name: 'Game 77'
+    code: '77'
+    number: 77
+    rounds: [Round{
+        red: 2
+        green: 0
+        blue: 3
+    }, Round{
+        red: 11
+        green: 8
+        blue: 1
+    }, Round{
+        red: 14
+        green: 14
+        blue: 0
+    }, Round{
+        red: 3
+        green: 5
+        blue: 5
+    }, Round{
+        red: 3
+        green: 2
+        blue: 16
+    }, Round{
+        red: 13
+        green: 7
+        blue: 5
+    }]
+}, Game{
+    name: 'Game 78'
+    code: '78'
+    number: 78
+    rounds: [Round{
+        red: 1
+        green: 1
+        blue: 3
+    }, Round{
+        red: 1
+        green: 1
+        blue: 5
+    }, Round{
+        red: 7
+        green: 1
+        blue: 9
+    }, Round{
+        red: 5
+        green: 1
+        blue: 5
+    }, Round{
+        red: 7
+        green: 3
+        blue: 10
+    }]
+}, Game{
+    name: 'Game 79'
+    code: '79'
+    number: 79
+    rounds: [Round{
+        red: 4
+        green: 19
+        blue: 17
+    }, Round{
+        red: 7
+        green: 7
+        blue: 16
+    }, Round{
+        red: 4
+        green: 10
+        blue: 0
+    }, Round{
+        red: 2
+        green: 17
+        blue: 13
+    }]
+}, Game{
+    name: 'Game 80'
+    code: '80'
+    number: 80
+    rounds: [Round{
+        red: 0
+        green: 3
+        blue: 9
+    }, Round{
+        red: 1
+        green: 0
+        blue: 15
+    }, Round{
+        red: 2
+        green: 12
+        blue: 3
+    }, Round{
+        red: 1
+        green: 14
+        blue: 13
+    }, Round{
+        red: 1
+        green: 16
+        blue: 10
+    }, Round{
+        red: 2
+        green: 6
+        blue: 8
+    }]
+}, Game{
+    name: 'Game 81'
+    code: '81'
+    number: 81
+    rounds: [Round{
+        red: 3
+        green: 1
+        blue: 19
+    }, Round{
+        red: 2
+        green: 1
+        blue: 9
+    }, Round{
+        red: 2
+        green: 1
+        blue: 8
+    }, Round{
+        red: 1
+        green: 1
+        blue: 11
+    }, Round{
+        red: 3
+        green: 1
+        blue: 11
+    }]
+}, Game{
+    name: 'Game 82'
+    code: '82'
+    number: 82
+    rounds: [Round{
+        red: 8
+        green: 4
+        blue: 1
+    }, Round{
+        red: 4
+        green: 9
+        blue: 3
+    }, Round{
+        red: 18
+        green: 3
+        blue: 3
+    }]
+}, Game{
+    name: 'Game 83'
+    code: '83'
+    number: 83
+    rounds: [Round{
+        red: 3
+        green: 16
+        blue: 13
+    }, Round{
+        red: 0
+        green: 16
+        blue: 2
+    }, Round{
+        red: 0
+        green: 14
+        blue: 12
+    }, Round{
+        red: 4
+        green: 8
+        blue: 14
+    }, Round{
+        red: 0
+        green: 12
+        blue: 4
+    }, Round{
+        red: 1
+        green: 20
+        blue: 0
+    }]
+}, Game{
+    name: 'Game 84'
+    code: '84'
+    number: 84
+    rounds: [Round{
+        red: 5
+        green: 4
+        blue: 4
+    }, Round{
+        red: 6
+        green: 8
+        blue: 6
+    }, Round{
+        red: 3
+        green: 12
+        blue: 5
+    }, Round{
+        red: 5
+        green: 13
+        blue: 0
+    }, Round{
+        red: 5
+        green: 1
+        blue: 6
+    }]
+}, Game{
+    name: 'Game 85'
+    code: '85'
+    number: 85
+    rounds: [Round{
+        red: 0
+        green: 10
+        blue: 0
+    }, Round{
+        red: 0
+        green: 7
+        blue: 1
+    }, Round{
+        red: 5
+        green: 1
+        blue: 5
+    }, Round{
+        red: 2
+        green: 2
+        blue: 3
+    }, Round{
+        red: 3
+        green: 10
+        blue: 3
+    }, Round{
+        red: 1
+        green: 0
+        blue: 1
+    }]
+}, Game{
+    name: 'Game 86'
+    code: '86'
+    number: 86
+    rounds: [Round{
+        red: 1
+        green: 3
+        blue: 3
+    }, Round{
+        red: 2
+        green: 2
+        blue: 0
+    }, Round{
+        red: 3
+        green: 9
+        blue: 2
+    }, Round{
+        red: 3
+        green: 4
+        blue: 3
+    }]
+}, Game{
+    name: 'Game 87'
+    code: '87'
+    number: 87
+    rounds: [Round{
+        red: 6
+        green: 4
+        blue: 0
+    }, Round{
+        red: 1
+        green: 3
+        blue: 5
+    }, Round{
+        red: 4
+        green: 1
+        blue: 7
+    }]
+}, Game{
+    name: 'Game 88'
+    code: '88'
+    number: 88
+    rounds: [Round{
+        red: 4
+        green: 2
+        blue: 3
+    }, Round{
+        red: 0
+        green: 5
+        blue: 1
+    }, Round{
+        red: 3
+        green: 5
+        blue: 2
+    }, Round{
+        red: 6
+        green: 1
+        blue: 1
+    }, Round{
+        red: 7
+        green: 0
+        blue: 2
+    }, Round{
+        red: 17
+        green: 13
+        blue: 0
+    }]
+}, Game{
+    name: 'Game 89'
+    code: '89'
+    number: 89
+    rounds: [Round{
+        red: 6
+        green: 4
+        blue: 2
+    }, Round{
+        red: 15
+        green: 7
+        blue: 10
+    }, Round{
+        red: 7
+        green: 4
+        blue: 9
+    }]
+}, Game{
+    name: 'Game 90'
+    code: '90'
+    number: 90
+    rounds: [Round{
+        red: 9
+        green: 0
+        blue: 17
+    }, Round{
+        red: 0
+        green: 1
+        blue: 9
+    }, Round{
+        red: 5
+        green: 0
+        blue: 8
+    }, Round{
+        red: 9
+        green: 1
+        blue: 3
+    }, Round{
+        red: 1
+        green: 0
+        blue: 17
+    }]
+}, Game{
+    name: 'Game 91'
+    code: '91'
+    number: 91
+    rounds: [Round{
+        red: 3
+        green: 7
+        blue: 5
+    }, Round{
+        red: 3
+        green: 9
+        blue: 4
+    }, Round{
+        red: 9
+        green: 7
+        blue: 7
+    }, Round{
+        red: 5
+        green: 3
+        blue: 6
+    }, Round{
+        red: 10
+        green: 2
+        blue: 6
+    }]
+}, Game{
+    name: 'Game 92'
+    code: '92'
+    number: 92
+    rounds: [Round{
+        red: 8
+        green: 0
+        blue: 13
+    }, Round{
+        red: 1
+        green: 7
+        blue: 8
+    }, Round{
+        red: 4
+        green: 2
+        blue: 5
+    }, Round{
+        red: 9
+        green: 0
+        blue: 10
+    }]
+}, Game{
+    name: 'Game 93'
+    code: '93'
+    number: 93
+    rounds: [Round{
+        red: 0
+        green: 6
+        blue: 0
+    }, Round{
+        red: 6
+        green: 16
+        blue: 1
+    }, Round{
+        red: 5
+        green: 5
+        blue: 1
+    }, Round{
+        red: 5
+        green: 6
+        blue: 0
+    }, Round{
+        red: 2
+        green: 16
+        blue: 1
+    }, Round{
+        red: 2
+        green: 11
+        blue: 0
+    }]
+}, Game{
+    name: 'Game 94'
+    code: '94'
+    number: 94
+    rounds: [Round{
+        red: 0
+        green: 4
+        blue: 9
+    }, Round{
+        red: 0
+        green: 12
+        blue: 17
+    }, Round{
+        red: 6
+        green: 4
+        blue: 5
+    }, Round{
+        red: 2
+        green: 12
+        blue: 2
+    }]
+}, Game{
+    name: 'Game 95'
+    code: '95'
+    number: 95
+    rounds: [Round{
+        red: 5
+        green: 5
+        blue: 4
+    }, Round{
+        red: 4
+        green: 4
+        blue: 2
+    }, Round{
+        red: 2
+        green: 7
+        blue: 4
+    }, Round{
+        red: 8
+        green: 1
+        blue: 7
+    }]
+}, Game{
+    name: 'Game 96'
+    code: '96'
+    number: 96
+    rounds: [Round{
+        red: 2
+        green: 6
+        blue: 7
+    }, Round{
+        red: 0
+        green: 3
+        blue: 1
+    }, Round{
+        red: 3
+        green: 5
+        blue: 7
+    }, Round{
+        red: 0
+        green: 1
+        blue: 5
+    }, Round{
+        red: 2
+        green: 0
+        blue: 6
+    }, Round{
+        red: 1
+        green: 2
+        blue: 0
+    }]
+}, Game{
+    name: 'Game 97'
+    code: '97'
+    number: 97
+    rounds: [Round{
+        red: 10
+        green: 1
+        blue: 1
+    }, Round{
+        red: 11
+        green: 4
+        blue: 2
+    }, Round{
+        red: 4
+        green: 4
+        blue: 1
+    }]
+}, Game{
+    name: 'Game 98'
+    code: '98'
+    number: 98
+    rounds: [Round{
+        red: 7
+        green: 3
+        blue: 4
+    }, Round{
+        red: 7
+        green: 8
+        blue: 0
+    }, Round{
+        red: 16
+        green: 7
+        blue: 1
+    }, Round{
+        red: 4
+        green: 8
+        blue: 2
+    }, Round{
+        red: 18
+        green: 5
+        blue: 3
+    }]
+}, Game{
+    name: 'Game 99'
+    code: '99'
+    number: 99
+    rounds: [Round{
+        red: 12
+        green: 6
+        blue: 1
+    }, Round{
+        red: 1
+        green: 7
+        blue: 5
+    }, Round{
+        red: 7
+        green: 5
+        blue: 10
+    }, Round{
+        red: 1
+        green: 7
+        blue: 8
+    }, Round{
+        red: 17
+        green: 9
+        blue: 4
+    }]
+}, Game{
+    name: 'Game 100'
+    code: '100'
+    number: 100
+    rounds: [Round{
+        red: 0
+        green: 10
+        blue: 6
+    }, Round{
+        red: 1
+        green: 3
+        blue: 4
+    }, Round{
+        red: 1
+        green: 12
+        blue: 7
+    }]
+}]
+[Game{
+    name: 'Game 2'
+    code: '2'
+    number: 2
+    rounds: [Round{
+        red: 0
+        green: 0
+        blue: 4
+    }, Round{
+        red: 4
+        green: 1
+        blue: 3
+    }, Round{
+        red: 4
+        green: 2
+        blue: 9
+    }, Round{
+        red: 4
+        green: 7
+        blue: 5
+    }]
+}, Game{
+    name: 'Game 6'
+    code: '6'
+    number: 6
+    rounds: [Round{
+        red: 7
+        green: 0
+        blue: 1
+    }, Round{
+        red: 5
+        green: 3
+        blue: 1
+    }, Round{
+        red: 7
+        green: 1
+        blue: 0
+    }, Round{
+        red: 6
+        green: 4
+        blue: 1
+    }, Round{
+        red: 8
+        green: 1
+        blue: 1
+    }, Round{
+        red: 4
+        green: 2
+        blue: 1
+    }]
+}, Game{
+    name: 'Game 9'
+    code: '9'
+    number: 9
+    rounds: [Round{
+        red: 2
+        green: 1
+        blue: 4
+    }, Round{
+        red: 3
+        green: 0
+        blue: 1
+    }, Round{
+        red: 1
+        green: 3
+        blue: 3
+    }]
+}, Game{
+    name: 'Game 11'
+    code: '11'
+    number: 11
+    rounds: [Round{
+        red: 10
+        green: 1
+        blue: 7
+    }, Round{
+        red: 5
+        green: 2
+        blue: 7
+    }, Round{
+        red: 0
+        green: 2
+        blue: 4
+    }, Round{
+        red: 10
+        green: 1
+        blue: 10
+    }, Round{
+        red: 4
+        green: 0
+        blue: 8
+    }]
+}, Game{
+    name: 'Game 16'
+    code: '16'
+    number: 16
+    rounds: [Round{
+        red: 6
+        green: 5
+        blue: 1
+    }, Round{
+        red: 3
+        green: 3
+        blue: 0
+    }, Round{
+        red: 1
+        green: 5
+        blue: 0
+    }, Round{
+        red: 2
+        green: 6
+        blue: 1
+    }, Round{
+        red: 1
+        green: 6
+        blue: 1
+    }, Round{
+        red: 0
+        green: 6
+        blue: 1
+    }]
+}, Game{
+    name: 'Game 20'
+    code: '20'
+    number: 20
+    rounds: [Round{
+        red: 9
+        green: 5
+        blue: 2
+    }, Round{
+        red: 8
+        green: 4
+        blue: 10
+    }, Round{
+        red: 9
+        green: 1
+        blue: 7
+    }, Round{
+        red: 9
+        green: 1
+        blue: 10
+    }, Round{
+        red: 8
+        green: 1
+        blue: 0
+    }, Round{
+        red: 8
+        green: 1
+        blue: 8
+    }]
+}, Game{
+    name: 'Game 23'
+    code: '23'
+    number: 23
+    rounds: [Round{
+        red: 2
+        green: 12
+        blue: 5
+    }, Round{
+        red: 3
+        green: 3
+        blue: 5
+    }, Round{
+        red: 1
+        green: 9
+        blue: 1
+    }, Round{
+        red: 0
+        green: 8
+        blue: 6
+    }, Round{
+        red: 0
+        green: 13
+        blue: 0
+    }]
+}, Game{
+    name: 'Game 24'
+    code: '24'
+    number: 24
+    rounds: [Round{
+        red: 8
+        green: 7
+        blue: 1
+    }, Round{
+        red: 1
+        green: 6
+        blue: 7
+    }, Round{
+        red: 3
+        green: 1
+        blue: 0
+    }]
+}, Game{
+    name: 'Game 25'
+    code: '25'
+    number: 25
+    rounds: [Round{
+        red: 2
+        green: 4
+        blue: 0
+    }, Round{
+        red: 1
+        green: 2
+        blue: 8
+    }, Round{
+        red: 0
+        green: 1
+        blue: 0
+    }, Round{
+        red: 0
+        green: 0
+        blue: 8
+    }]
+}, Game{
+    name: 'Game 28'
+    code: '28'
+    number: 28
+    rounds: [Round{
+        red: 3
+        green: 5
+        blue: 2
+    }, Round{
+        red: 2
+        green: 3
+        blue: 4
+    }, Round{
+        red: 1
+        green: 9
+        blue: 3
+    }, Round{
+        red: 4
+        green: 13
+        blue: 4
+    }]
+}, Game{
+    name: 'Game 31'
+    code: '31'
+    number: 31
+    rounds: [Round{
+        red: 2
+        green: 7
+        blue: 1
+    }, Round{
+        red: 12
+        green: 8
+        blue: 4
+    }, Round{
+        red: 5
+        green: 2
+        blue: 2
+    }, Round{
+        red: 12
+        green: 3
+        blue: 2
+    }, Round{
+        red: 7
+        green: 5
+        blue: 4
+    }, Round{
+        red: 7
+        green: 0
+        blue: 1
+    }]
+}, Game{
+    name: 'Game 33'
+    code: '33'
+    number: 33
+    rounds: [Round{
+        red: 9
+        green: 0
+        blue: 0
+    }, Round{
+        red: 9
+        green: 6
+        blue: 7
+    }, Round{
+        red: 5
+        green: 2
+        blue: 7
+    }]
+}, Game{
+    name: 'Game 36'
+    code: '36'
+    number: 36
+    rounds: [Round{
+        red: 2
+        green: 3
+        blue: 3
+    }, Round{
+        red: 7
+        green: 0
+        blue: 8
+    }, Round{
+        red: 9
+        green: 0
+        blue: 11
+    }, Round{
+        red: 4
+        green: 1
+        blue: 13
+    }]
+}, Game{
+    name: 'Game 38'
+    code: '38'
+    number: 38
+    rounds: [Round{
+        red: 1
+        green: 10
+        blue: 5
+    }, Round{
+        red: 3
+        green: 3
+        blue: 6
+    }, Round{
+        red: 3
+        green: 9
+        blue: 9
+    }, Round{
+        red: 1
+        green: 6
+        blue: 9
+    }]
+}, Game{
+    name: 'Game 40'
+    code: '40'
+    number: 40
+    rounds: [Round{
+        red: 3
+        green: 2
+        blue: 2
+    }, Round{
+        red: 6
+        green: 2
+        blue: 2
+    }, Round{
+        red: 9
+        green: 1
+        blue: 0
+    }]
+}, Game{
+    name: 'Game 42'
+    code: '42'
+    number: 42
+    rounds: [Round{
+        red: 6
+        green: 2
+        blue: 1
+    }, Round{
+        red: 3
+        green: 2
+        blue: 0
+    }, Round{
+        red: 9
+        green: 1
+        blue: 0
+    }, Round{
+        red: 2
+        green: 2
+        blue: 0
+    }]
+}, Game{
+    name: 'Game 43'
+    code: '43'
+    number: 43
+    rounds: [Round{
+        red: 9
+        green: 0
+        blue: 10
+    }, Round{
+        red: 0
+        green: 4
+        blue: 14
+    }, Round{
+        red: 5
+        green: 3
+        blue: 9
+    }, Round{
+        red: 1
+        green: 8
+        blue: 5
+    }]
+}, Game{
+    name: 'Game 45'
+    code: '45'
+    number: 45
+    rounds: [Round{
+        red: 1
+        green: 1
+        blue: 3
+    }, Round{
+        red: 1
+        green: 2
+        blue: 5
+    }, Round{
+        red: 1
+        green: 1
+        blue: 2
+    }, Round{
+        red: 0
+        green: 0
+        blue: 1
+    }, Round{
+        red: 0
+        green: 1
+        blue: 5
+    }, Round{
+        red: 0
+        green: 0
+        blue: 1
+    }]
+}, Game{
+    name: 'Game 46'
+    code: '46'
+    number: 46
+    rounds: [Round{
+        red: 4
+        green: 8
+        blue: 8
+    }, Round{
+        red: 4
+        green: 10
+        blue: 7
+    }, Round{
+        red: 2
+        green: 3
+        blue: 14
+    }]
+}, Game{
+    name: 'Game 48'
+    code: '48'
+    number: 48
+    rounds: [Round{
+        red: 3
+        green: 12
+        blue: 11
+    }, Round{
+        red: 3
+        green: 3
+        blue: 8
+    }, Round{
+        red: 2
+        green: 1
+        blue: 6
+    }]
+}, Game{
+    name: 'Game 50'
+    code: '50'
+    number: 50
+    rounds: [Round{
+        red: 5
+        green: 6
+        blue: 2
+    }, Round{
+        red: 5
+        green: 11
+        blue: 8
+    }, Round{
+        red: 2
+        green: 2
+        blue: 6
+    }]
+}, Game{
+    name: 'Game 51'
+    code: '51'
+    number: 51
+    rounds: [Round{
+        red: 2
+        green: 1
+        blue: 0
+    }, Round{
+        red: 0
+        green: 4
+        blue: 0
+    }, Round{
+        red: 0
+        green: 10
+        blue: 1
+    }]
+}, Game{
+    name: 'Game 52'
+    code: '52'
+    number: 52
+    rounds: [Round{
+        red: 9
+        green: 4
+        blue: 8
+    }, Round{
+        red: 2
+        green: 2
+        blue: 8
+    }, Round{
+        red: 1
+        green: 2
+        blue: 1
+    }, Round{
+        red: 8
+        green: 8
+        blue: 2
+    }, Round{
+        red: 4
+        green: 1
+        blue: 9
+    }, Round{
+        red: 8
+        green: 4
+        blue: 11
+    }]
+}, Game{
+    name: 'Game 53'
+    code: '53'
+    number: 53
+    rounds: [Round{
+        red: 2
+        green: 1
+        blue: 0
+    }, Round{
+        red: 9
+        green: 1
+        blue: 3
+    }, Round{
+        red: 11
+        green: 0
+        blue: 5
+    }, Round{
+        red: 6
+        green: 1
+        blue: 4
+    }, Round{
+        red: 10
+        green: 0
+        blue: 5
+    }, Round{
+        red: 5
+        green: 1
+        blue: 5
+    }]
+}, Game{
+    name: 'Game 56'
+    code: '56'
+    number: 56
+    rounds: [Round{
+        red: 1
+        green: 4
+        blue: 9
+    }, Round{
+        red: 0
+        green: 12
+        blue: 12
+    }, Round{
+        red: 1
+        green: 1
+        blue: 5
+    }]
+}, Game{
+    name: 'Game 57'
+    code: '57'
+    number: 57
+    rounds: [Round{
+        red: 0
+        green: 1
+        blue: 10
+    }, Round{
+        red: 1
+        green: 0
+        blue: 9
+    }, Round{
+        red: 1
+        green: 3
+        blue: 10
+    }]
+}, Game{
+    name: 'Game 61'
+    code: '61'
+    number: 61
+    rounds: [Round{
+        red: 8
+        green: 1
+        blue: 1
+    }, Round{
+        red: 3
+        green: 0
+        blue: 7
+    }, Round{
+        red: 10
+        green: 0
+        blue: 4
+    }, Round{
+        red: 5
+        green: 1
+        blue: 8
+    }, Round{
+        red: 10
+        green: 0
+        blue: 7
+    }]
+}, Game{
+    name: 'Game 64'
+    code: '64'
+    number: 64
+    rounds: [Round{
+        red: 2
+        green: 2
+        blue: 0
+    }, Round{
+        red: 0
+        green: 3
+        blue: 2
+    }, Round{
+        red: 2
+        green: 12
+        blue: 4
+    }, Round{
+        red: 5
+        green: 9
+        blue: 8
+    }, Round{
+        red: 0
+        green: 6
+        blue: 7
+    }, Round{
+        red: 5
+        green: 3
+        blue: 0
+    }]
+}, Game{
+    name: 'Game 65'
+    code: '65'
+    number: 65
+    rounds: [Round{
+        red: 8
+        green: 2
+        blue: 13
+    }, Round{
+        red: 0
+        green: 0
+        blue: 11
+    }, Round{
+        red: 0
+        green: 2
+        blue: 7
+    }, Round{
+        red: 9
+        green: 1
+        blue: 12
+    }]
+}, Game{
+    name: 'Game 67'
+    code: '67'
+    number: 67
+    rounds: [Round{
+        red: 1
+        green: 2
+        blue: 7
+    }, Round{
+        red: 1
+        green: 3
+        blue: 7
+    }, Round{
+        red: 1
+        green: 6
+        blue: 0
+    }, Round{
+        red: 2
+        green: 10
+        blue: 7
+    }, Round{
+        red: 2
+        green: 5
+        blue: 4
+    }]
+}, Game{
+    name: 'Game 70'
+    code: '70'
+    number: 70
+    rounds: [Round{
+        red: 3
+        green: 3
+        blue: 10
+    }, Round{
+        red: 8
+        green: 11
+        blue: 11
+    }, Round{
+        red: 5
+        green: 13
+        blue: 0
+    }]
+}, Game{
+    name: 'Game 72'
+    code: '72'
+    number: 72
+    rounds: [Round{
+        red: 1
+        green: 0
+        blue: 2
+    }, Round{
+        red: 1
+        green: 3
+        blue: 2
+    }, Round{
+        red: 2
+        green: 4
+        blue: 4
+    }]
+}, Game{
+    name: 'Game 73'
+    code: '73'
+    number: 73
+    rounds: [Round{
+        red: 11
+        green: 11
+        blue: 0
+    }, Round{
+        red: 0
+        green: 5
+        blue: 1
+    }, Round{
+        red: 8
+        green: 7
+        blue: 4
+    }, Round{
+        red: 7
+        green: 12
+        blue: 5
+    }]
+}, Game{
+    name: 'Game 78'
+    code: '78'
+    number: 78
+    rounds: [Round{
+        red: 1
+        green: 1
+        blue: 3
+    }, Round{
+        red: 1
+        green: 1
+        blue: 5
+    }, Round{
+        red: 7
+        green: 1
+        blue: 9
+    }, Round{
+        red: 5
+        green: 1
+        blue: 5
+    }, Round{
+        red: 7
+        green: 3
+        blue: 10
+    }]
+}, Game{
+    name: 'Game 84'
+    code: '84'
+    number: 84
+    rounds: [Round{
+        red: 5
+        green: 4
+        blue: 4
+    }, Round{
+        red: 6
+        green: 8
+        blue: 6
+    }, Round{
+        red: 3
+        green: 12
+        blue: 5
+    }, Round{
+        red: 5
+        green: 13
+        blue: 0
+    }, Round{
+        red: 5
+        green: 1
+        blue: 6
+    }]
+}, Game{
+    name: 'Game 85'
+    code: '85'
+    number: 85
+    rounds: [Round{
+        red: 0
+        green: 10
+        blue: 0
+    }, Round{
+        red: 0
+        green: 7
+        blue: 1
+    }, Round{
+        red: 5
+        green: 1
+        blue: 5
+    }, Round{
+        red: 2
+        green: 2
+        blue: 3
+    }, Round{
+        red: 3
+        green: 10
+        blue: 3
+    }, Round{
+        red: 1
+        green: 0
+        blue: 1
+    }]
+}, Game{
+    name: 'Game 86'
+    code: '86'
+    number: 86
+    rounds: [Round{
+        red: 1
+        green: 3
+        blue: 3
+    }, Round{
+        red: 2
+        green: 2
+        blue: 0
+    }, Round{
+        red: 3
+        green: 9
+        blue: 2
+    }, Round{
+        red: 3
+        green: 4
+        blue: 3
+    }]
+}, Game{
+    name: 'Game 87'
+    code: '87'
+    number: 87
+    rounds: [Round{
+        red: 6
+        green: 4
+        blue: 0
+    }, Round{
+        red: 1
+        green: 3
+        blue: 5
+    }, Round{
+        red: 4
+        green: 1
+        blue: 7
+    }]
+}, Game{
+    name: 'Game 91'
+    code: '91'
+    number: 91
+    rounds: [Round{
+        red: 3
+        green: 7
+        blue: 5
+    }, Round{
+        red: 3
+        green: 9
+        blue: 4
+    }, Round{
+        red: 9
+        green: 7
+        blue: 7
+    }, Round{
+        red: 5
+        green: 3
+        blue: 6
+    }, Round{
+        red: 10
+        green: 2
+        blue: 6
+    }]
+}, Game{
+    name: 'Game 92'
+    code: '92'
+    number: 92
+    rounds: [Round{
+        red: 8
+        green: 0
+        blue: 13
+    }, Round{
+        red: 1
+        green: 7
+        blue: 8
+    }, Round{
+        red: 4
+        green: 2
+        blue: 5
+    }, Round{
+        red: 9
+        green: 0
+        blue: 10
+    }]
+}, Game{
+    name: 'Game 95'
+    code: '95'
+    number: 95
+    rounds: [Round{
+        red: 5
+        green: 5
+        blue: 4
+    }, Round{
+        red: 4
+        green: 4
+        blue: 2
+    }, Round{
+        red: 2
+        green: 7
+        blue: 4
+    }, Round{
+        red: 8
+        green: 1
+        blue: 7
+    }]
+}, Game{
+    name: 'Game 96'
+    code: '96'
+    number: 96
+    rounds: [Round{
+        red: 2
+        green: 6
+        blue: 7
+    }, Round{
+        red: 0
+        green: 3
+        blue: 1
+    }, Round{
+        red: 3
+        green: 5
+        blue: 7
+    }, Round{
+        red: 0
+        green: 1
+        blue: 5
+    }, Round{
+        red: 2
+        green: 0
+        blue: 6
+    }, Round{
+        red: 1
+        green: 2
+        blue: 0
+    }]
+}, Game{
+    name: 'Game 97'
+    code: '97'
+    number: 97
+    rounds: [Round{
+        red: 10
+        green: 1
+        blue: 1
+    }, Round{
+        red: 11
+        green: 4
+        blue: 2
+    }, Round{
+        red: 4
+        green: 4
+        blue: 1
+    }]
+}, Game{
+    name: 'Game 100'
+    code: '100'
+    number: 100
+    rounds: [Round{
+        red: 0
+        green: 10
+        blue: 6
+    }, Round{
+        red: 1
+        green: 3
+        blue: 4
+    }, Round{
+        red: 1
+        green: 12
+        blue: 7
+    }]
+}]
+sum of ids : 2348
+sum of all powers : 76008
+sum of valid powers : 12882
