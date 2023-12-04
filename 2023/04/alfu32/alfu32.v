@@ -37,17 +37,59 @@ pub fn card_from_string(text string) Card {
 	return card
 }
 pub fn (c Card) points() u64 {
-	println(c)
+	//println(c)
 	mut hits := 0
 	for n in c.chosen_numbers {
 		if n in c.winning_numbers {
-			println("$n in ${c.winning_numbers}")
+			//println("$n in ${c.winning_numbers}")
 			hits++
 		}
 	}
 	mut result := if hits == 0 { u64(0) } else {u64(1<<(hits-1))}
-	println("$result points [$hits hits]")
+	//println("$result points [$hits hits]")
 	return result
+}
+
+pub fn (cards []Card) count(limit int) int{
+	cc := cards.count_cards(cards.filter(it.points()>0).map(it.number),limit)
+	return arrays.flat_map[[]u64, u64](cc, fn(a []u64) []u64 { return a }).len
+}
+pub fn (cards []Card) count_cards(allowed_ids []u64,limit int) [][]u64{
+	mut ref := [allowed_ids.clone()]
+	mut refs :=[][]u64{}
+	mut u := 0
+	mut total := cards.filter(it.points()>0).len
+	for ref.len > 0 && u < limit{
+		ref = get_copies_ref(cards,arrays.flat_map[[]u64, u64](ref, fn(a []u64) []u64 { return a }))
+		total+=ref.len
+		refs << ref
+		println("u:$u,ref:$ref,total:$total")
+		u++
+	}
+	return refs
+
+}
+
+pub fn get_copies_ref(cards []Card,only []u64) [][]u64 {
+
+	mut copies := cards
+	.filter(fn[only](c Card) bool {
+		return c.number in only
+	})
+	.map(fn[cards](c Card) []u64 {
+		points := c.points()
+		mut indices := []u64{}
+		if points > 0 {
+			for k in 0..(points+1) {
+				indices << u64(1+c.number+k)
+			}
+		} else {
+			indices = []u64{}
+		}
+		len := cards.len
+		return indices.map(fn[len](ix u64) u64 {return if ix<=len { ix } else { u64(len) }})
+	})
+	return copies
 }
 fn main(){
 	mut filename := os.args[1] or {"/home/devlin/Development/adventofcode/2023/04/alfu32/input.txt"}
@@ -58,4 +100,6 @@ fn main(){
 		return t+c.points()
 	})
 	println("total : $total")
+	total2 := test_cards.count(2000)
+	println("total2 : $total2")
 }

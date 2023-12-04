@@ -1,6 +1,5 @@
 module main
 
-import arrays
 
 fn test_scd(){
 
@@ -15,33 +14,7 @@ fn test_scd(){
 	println(test_cards)
 
 	cards := test_cards.split("\n").map(card_from_string(it))
-	println(cards)
-	points := cards.map(it.points())
-	println(points)
-
-	mut copies := arrays.flat_map()(cards, fn[cards](c Card) []Card {
-		times:=c.points()
-		if times > 0 {
-			i := c.number
-			mut k:=i
-			for _ in 1..(times+1) {
-				if k >=cards.len {
-					k=i
-				}
-				ctc := arrays.filter(cards,fn [c](c0 Card) bool {
-					return c0.number == c.number
-				}).map(fn(cc Card) Card {
-					Card{
-						number: c.number
-						code: c.code
-						winning_numbers: cc.winning_numbers
-						chosen_numbers: cc.chosen_numbers
-					}
-				})
-				k++
-				return ctc
-			}
-		}
-	})
-
+	//println(cards)
+	mut refs := cards.count(10)
+	println(refs)
 }
