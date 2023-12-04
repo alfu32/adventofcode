@@ -79,20 +79,28 @@ pub fn engine_map_from_string(txt string) EngineMap {
 		println(err)
 		panic ("regex [$err] was no good")
 	}
-	mut numbers := regex.regex_opt(r'(\d+)') or {
-		println(err)
-		panic ("regex [$err] was no good")
-	}
 	mut entities := []DrawingBlock{}
 	lines := txt.split("\n")
 	for y,line in lines {
-		entity_codes := numbers.find_all_str(line)
-		symbols := digits.replace(line,".")
-		mut entity_defs:= symbols.split(".").filter(!it.is_blank())
-		entity_defs << entity_codes
-		for ed in entity_defs {
-			x:=line.index(ed) or { panic ( "entity $ed not detected in $line" )}
-			entities << DrawingBlock{ x:u32(x+1),y:u32(y+1),content:ed}
+		mut buf_num:=""
+		for x,chr in line.split("") {
+			if digits.matches_string(chr) {
+				buf_num+=chr
+			}else {
+				if !buf_num.is_blank() {
+					// create code
+					entities << DrawingBlock{x:u32(x+1-buf_num.len),y:u32(y+1),content: buf_num}
+					buf_num=""
+				}
+				if chr != '.' {
+					entities << DrawingBlock{x:u32(x+1),y:u32(y+1),content: chr}
+				}
+			}
+		}
+		if !buf_num.is_blank() {
+			// create code
+			entities << DrawingBlock{x:u32(line.len-buf_num.len),y:u32(y+1),content: buf_num}
+			buf_num=""
 		}
 	}
 	return EngineMap{entities}
@@ -101,6 +109,16 @@ struct Part{
 	pub mut:
 		figure DrawingBlock
 		codes []DrawingBlock
+}
+pub fn (p Part) is_gear() bool {
+	return p.codes.len == 2
+}
+pub fn (p Part) gear_power_ratio() u64 {
+	if p.is_gear(){
+		return  (p.codes[0].content.u64()) * (p.codes[1].content.u64())
+	} else {
+		return u64(0)
+	}
 }
 
 fn main(){
@@ -117,5 +135,9 @@ fn main(){
 			return s+code.content.u64()
 		})
 	})
-	println(sum_codes)
+	println("sum_codes : ${sum_codes}")
+	sum_gears := arrays.fold(parts,u64(0),fn(acc u64,part Part) u64 {
+		return acc + part.gear_power_ratio()
+	})
+	println("sum_gears : ${sum_gears}")
 }
