@@ -50,18 +50,25 @@ pub fn (c Card) points() u64 {
 	return result
 }
 
-pub fn (cards []Card) count(limit int) int{
-	cc := cards.count_cards(cards.filter(it.points()>0).map(it.number),limit)
-	return arrays.flat_map[[]u64, u64](cc, fn(a []u64) []u64 { return a }).len
+pub fn (cards []Card) get_by_id(id u64) []Card {
+	return cards.filter(fn[id](c Card) bool {return c.number == id})
 }
-pub fn (cards []Card) count_cards(allowed_ids []u64,limit int) [][]u64{
+pub fn (cards []Card) count(limit int) int{
+	restr := cards.filter(it.points()>0)
+	points := restr.map( it.points() )
+	reducer := fn (t u64,p u64) u64 { return t+p }
+	start := arrays.fold(points, u64(0), reducer)
+	cc := cards.count_cards(start,restr.map(it.number),limit)
+	return arrays.flatten(cc).len
+}
+pub fn (cards []Card) count_cards( start u64, allowed_ids []u64, limit int ) [][]u64 {
 	mut ref := [allowed_ids.clone()]
 	mut refs :=[][]u64{}
 	mut u := 0
-	mut total := cards.filter(it.points()>0).len
+	mut total := start
 	for ref.len > 0 && u < limit{
-		ref = get_copies_ref(cards,arrays.flat_map[[]u64, u64](ref, fn(a []u64) []u64 { return a }))
-		total+=ref.len
+		ref = cards.get_winnings(arrays.flatten(ref) )
+		total+=u64(ref.len)
 		refs << ref
 		println("u:$u,ref:$ref,total:$total")
 		u++
@@ -70,11 +77,11 @@ pub fn (cards []Card) count_cards(allowed_ids []u64,limit int) [][]u64{
 
 }
 
-pub fn get_copies_ref(cards []Card,only []u64) [][]u64 {
+pub fn (cards []Card) get_winnings(card_refs []u64) [][]u64 {
 
 	mut copies := cards
-	.filter(fn[only](c Card) bool {
-		return c.number in only
+	.filter(fn[card_refs](c Card) bool {
+		return c.number in card_refs
 	})
 	.map(fn[cards](c Card) []u64 {
 		points := c.points()
