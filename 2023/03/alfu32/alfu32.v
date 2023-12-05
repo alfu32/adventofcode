@@ -3,37 +3,47 @@ module main
 import os
 import regex
 import arrays
-
-struct DrawingBlock{
+struct Point{
 	pub mut:
-		x u32
-		y u32
+	x u32
+	y u32
+}
+struct DrawingBlock{
+	Point
+	pub mut:
 		content string
 }
-pub fn (e DrawingBlock) end_anchor() DrawingBlock {
-	return DrawingBlock{
+pub fn (e DrawingBlock) left() Point {
+	return Point{
+		x: e.x
+		y: e.y
+	}
+}
+pub fn (e DrawingBlock) right() Point {
+	return Point{
 		x: u32(e.x+e.content.len-1)
 		y: e.y
-		content: ''
 	}
 }
 pub fn (e DrawingBlock) str() string {
-	return "${if e.is_code() {"code" }else {"part"}};${e.x};${e.y};${e.content}"
+	return "${if e.is_code_block() {"code" }else {"part"}};${e.x};${e.y};${e.content}"
 }
-pub fn (e DrawingBlock) is_code() bool {
+pub fn (e DrawingBlock) is_code_block() bool {
 	mut rx := regex.regex_opt(r'^(\d+)$') or {
 		println(err)
 		panic ("regex [$err] was no good")
 	}
 	return rx.matches_string(e.content)
 }
-pub fn (a DrawingBlock) is_near(b DrawingBlock) bool {
+pub fn (a Point) is_near(b Point) bool {
 	return ( ((a.x-b.x )*(a.x-b.x )) <= 1 )  && ( ((a.y-b.y)*(a.y-b.y)) <= 1 )
 }
-pub fn (a DrawingBlock) is_adjacent(b DrawingBlock) bool {
-	ea:=a.end_anchor()
-	eb:= b.end_anchor()
-	return a.is_near(b) || a.is_near(eb) || b.is_near(ea)
+pub fn (a DrawingBlock) is_near(b DrawingBlock) bool {
+	al := a.left()
+	bl := b.left()
+	ar:=a.right()
+	br:= b.right()
+	return al.is_near(bl) || al.is_near(br) || b.is_near(ar)
 }
 struct EngineMap{
 	pub mut:
@@ -41,21 +51,21 @@ struct EngineMap{
 }
 pub fn (e EngineMap) get_parts() []Part {
 	mut parts := []Part{}
-	figures := e.entities.filter(!it.is_code())
-	codes := e.entities.filter(it.is_code())
+	figures := e.entities.filter(!it.is_code_block())
+	codes := e.entities.filter(it.is_code_block())
 	cl := codes.len*100
 	mut uuids := []u64{}
-	for fi,figure in figures {
+	for fi,figure_block in figures {
 		mut part := Part{
-			figure: figure
+			figure: figure_block
 		}
 		/// mut found_code:=false
-		for ci,code in codes {
+		for ci,code_block in codes {
 			/// println("$code near $figure == ${code.is_near(figure)}}")
-			if code.is_adjacent(figure) {
+			if code_block.is_near(figure_block) {
 				uuid:= u64(fi * cl + ci)
 				if !(uuid in uuids) {
-					part.codes << code
+					part.codes << code_block
 					uuids << uuid
 				}
 				// found_code=true
