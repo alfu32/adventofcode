@@ -38,4 +38,30 @@ fn test_scd(){
 		56 93 4
 	".trim_indent()
 	println(lines)
+	db := database_init_from_text(lines) or {
+		println(err)
+		Database{}
+	}
+	println(db)
+	for seed in db.seed.records {
+		println("seed : $seed, vector: ${db.get_vector(seed).to_json(false)}")
+	}
+	println("part_1: min_location")
+	mut min_location := u64(0xFFFFFFFF)
+	for vector in db.get_vectors() {
+		println("seed : ${vector.seed}, vector: ${vector.to_json(false)}")
+		if vector.location < min_location {
+			min_location = vector.location
+		}
+	}
+	println("min_location 1: $min_location")
+	for vector in db.get_vectors_of_intervals() {
+		println("seed : ${vector.seed}, vector: ${vector.to_json(true)}")
+		for location_interval in vector.location_intervals {
+			if location_interval.start < min_location {
+				min_location = location_interval.start
+			}
+		}
+	}
+	println("min_location 2: $min_location")
 }
