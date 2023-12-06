@@ -100,28 +100,71 @@ pub fn (r Interval) subtract(r1 Interval) Interval {
 		return r
 	}
 }
+pub fn (r []Interval) order() []Interval {
+	return r.sorted_with_compare(fn(a Interval,b Interval) int {
+		if a.start != b.start {
+			return i32(a.start-b.start)
+		} else {
+			return i32(b.end-a.end)
+		}
+	})
+}
+pub fn (r []Interval) str() string {
+	return r.order().map(it.str()).join(",")
+}
+struct CompactTracker{
+	intv1 Interval
+	intv2 Interval
+	result bool
+}
 pub fn (r []Interval) compact() []Interval {
 	mut intervals := r.map(it)
-	mut buffer := []Interval{}
-	mut limit :=20
-	for limit >= 0{
+	mut buffer := intervals.map(it)
+	mut iters :=0
+	mut unique := intervals.map(it)
+	for iters < 20{
 		println(buffer)
-		for i,i0 in r {
-			mut j:=i+1
-			for j<r.len {
-				i1:= r[j]
+		// mut unique := []Interval{}
+		// for a in buffer {
+		// 	mut has_duplicate := false
+		// 	for b in buffer {
+		// 		if a.str() == b.str() {
+		// 			has_duplicate= true
+		// 		}
+		// 	}
+		// 	if !has_duplicate {
+		// 		unique << a
+		// 	}
+		// }
+		buffer = []Interval{}
+		for _,i0 in unique {
+			mut intersects := []Interval{}
+			mut no_intersects := []Interval{}
+			for _,i1 in unique {
 				if i0.intersects(i1) {
-					buffer << i0.merge(i1)
+					intersects << i1
+					println("intersects : $intersects")
+				} else {
+					no_intersects << i1
 				}
-				j++
+			}
+			if intersects.len == 0 {
+				buffer << i0
+			} else {
+				mut start := intersects.map(it.start)
+				mut end := intersects.map(it.end)
+				buffer << Interval{start: start.sorted().first(),end:end.sorted().last()}
 			}
 		}
-		if buffer.len == intervals.len {
-			return buffer
-		}
+		println(buffer)
+		// if buffer.str() == intervals.str() {
+		// 	println("done in $iters iterations")
+		// 	return buffer
+		// }
 		intervals = buffer.map(it)
-		limit--
+		iters++
 	}
+	println(iters)
 	return buffer
 }
 pub fn (r Interval) each (tf fn(i u64) ) {
